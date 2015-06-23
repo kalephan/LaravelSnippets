@@ -1,1 +1,1 @@
-# Laravel 5 Snippets
+# Laravel 5 Snippets for Sublime Text 3

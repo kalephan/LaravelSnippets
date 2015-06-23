@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+DB::table('users')->insert([
+    [
+        'name' => str_random(10),
+        'email' => str_random(10).'@gmail.com',
+        'password' => bcrypt('secret'),
+    ],
+]);
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>db-in</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>
