@@ -1,1 +1,1 @@
-# LaravelSnippets
+# Laravel 5 Snippets
